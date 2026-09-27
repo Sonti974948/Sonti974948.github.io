@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Siddharth Sonti · PhD Candidate, UC Davis</title>
+  <meta name="description" content="Siddharth Sonti — PhD candidate in Chemical Engineering at UC Davis. Enhanced sampling, machine-learning potentials, molecular dynamics, and catalysis. Creator of ParGaMD.">
+  <meta name="author" content="Siddharth Sonti">
+  <meta property="og:title" content="Siddharth Sonti · Computational Chemical Engineering">
+  <meta property="og:description" content="Enhanced sampling, ML potentials and molecular simulation for catalysis and sustainability.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sonti974948.github.io/">
+  <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    document.documentElement.classList.add('js');
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Siddharth Sonti",
+    "jobTitle": "PhD Candidate, Chemical Engineering",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "University of California, Davis" },
+    "email": "mailto:ssiddharth@ucdavis.edu",
+    "url": "https://sonti974948.github.io/",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=ZPkyB-oAAAAJ&hl=en",
+      "https://github.com/Sonti974948",
+      "https://www.linkedin.com/in/sonti-siddharth-895859184",
+      "https://x.com/SontiSiddharth"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a class="brand" href="#top">S<span>.</span>Sonti</a>
+      <nav aria-label="Primary">
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO / ABOUT ============ -->
+    <section class="hero" id="about">
+      <div class="hero__grid">
+        <div class="hero__text reveal">
+          <p class="eyebrow">PhD Candidate · Chemical Engineering · UC Davis</p>
+          <h1>Siddharth Sonti</h1>
+          <p class="lede">
+            I build computational methods that let atomistic simulations reach the timescales that matter —
+            and use them to understand catalysts and design processes for a more sustainable future.
+          </p>
+          <p>
+            I am co-advised by <strong>Prof. Surl-Hee (Shirley) Ahn</strong>
+            and <strong>Prof. Ambarish Kulkarni</strong>
+            in the Department of Chemical Engineering at the University of California, Davis.
+            My work sits at the intersection of <strong>enhanced sampling</strong>, <strong>machine-learning potentials</strong>
+            and <strong>molecular dynamics</strong>, with applications to catalysis, hydrogen production and carbon capture.
+            I am the developer of <strong>ParGaMD</strong>, a parallelizable Gaussian accelerated MD method for fast free-energy exploration.
+          </p>
+
+          <div class="cta">
+            <a class="btn btn--primary" href="assets/CV_Siddharth_Sonti.pdf" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M9 14h6M9 17h4"/></svg>
+              Curriculum Vitae
+            </a>
+            <a class="btn" href="mailto:ssiddharth@ucdavis.edu">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              ssiddharth@ucdavis.edu
+            </a>
+          </div>
+
+          <ul class="socials" aria-label="Profiles">
+            <li><a href="https://scholar.google.com/citations?user=ZPkyB-oAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9.5l11 6.5 9-5.3V17h2V9.5z" class="fill"/><path d="M5.5 13.2V17c0 1.9 2.9 3.5 6.5 3.5s6.5-1.6 6.5-3.5v-3.8L12 17z" class="fill"/></svg></a></li>
+            <li><a href="https://github.com/Sonti974948" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .8.1-.7.4-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg></a></li>
+            <li><a href="https://www.linkedin.com/in/sonti-siddharth-895859184" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V21h-4z"/></svg></a></li>
+            <li><a href="https://x.com/SontiSiddharth" target="_blank" rel="noopener" aria-label="X (Twitter)" title="X">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M17.8 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></svg></a></li>
+          </ul>
+        </div>
+
+        <aside class="hero__card reveal" aria-label="Profile">
+          <div class="portrait">
+            <img src="assets/img/profile.jpg" alt="Portrait of Siddharth Sonti" width="320" height="320"
+                 onerror="this.remove(); document.querySelector('.portrait').classList.add('portrait--fallback');">
+            <span class="portrait__mono" aria-hidden="true">SS</span>
+          </div>
+          <dl class="facts">
+            <div><dt>Office</dt><dd>2129B Bainer Hall, UC Davis</dd></div>
+            <div><dt>Advisors</dt><dd>S.-H. Ahn &amp; A. R. Kulkarni</dd></div>
+            <div><dt>Status</dt><dd><span class="dot"></span>PhD expected 2026</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH ============ -->
+    <section class="section" id="research">
+      <div class="section__head reveal">
+        <p class="kicker">01</p>
+        <h2>Research</h2>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 17c3-8 6 4 9-4s6 4 9-4"/><circle cx="3" cy="17" r="1.2" class="fill"/><circle cx="21" cy="9" r="1.2" class="fill"/></svg>
+          </div>
+          <h3>Enhanced sampling</h3>
+          <p>Can we push atomistic simulations to longer timescales? I develop and apply methods such as Gaussian accelerated MD,
+            weighted ensemble and metadynamics — including <strong>ParGaMD</strong>, which parallelizes GaMD for HPC clusters.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.2"/><circle cx="18" cy="6" r="2.2"/><circle cx="12" cy="18" r="2.2"/><path d="M8 7l3 9M16 7l-3 9M8.2 6h7.6"/></svg>
+          </div>
+          <h3>ML potentials &amp; catalysis</h3>
+          <p>Computational workflows built on machine-learning interatomic potentials to study catalyst behavior —
+            from zeolite-confined gold nanoclusters to the mechanisms of zeolite formation.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3c4 5 6 8 6 11a6 6 0 0 1-12 0c0-3 2-6 6-11z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></svg>
+          </div>
+          <h3>Sustainable processes</h3>
+          <p>Theoretical process development for sustainability needs, including hydrogen production, hydrogen carriers
+            and carbon capture.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section class="section" id="publications">
+      <div class="section__head reveal">
+        <p class="kicker">02</p>
+        <h2>Publications</h2>
+        <a class="more" href="https://scholar.google.com/citations?user=ZPkyB-oAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar →</a>
+      </div>
+
+      <ol class="pubs">
+        <li class="pub reveal">
+          <div class="pub__year">2025</div>
+          <div class="pub__body">
+            <h3><a href="https://chemrxiv.org/engage/chemrxiv/article-details/68b096f423be8e43d69fac62" target="_blank" rel="noopener">Computer Simulations of Zeolite Formation</a></h3>
+            <p class="authors"><span class="me">S. Sonti</span>, A. R. Kulkarni</p>
+            <p class="venue"><span class="tag tag--pre">Preprint</span> ChemRxiv</p>
+            <div class="pub__links">
+              <a href="https://chemrxiv.org/engage/chemrxiv/article-details/68b096f423be8e43d69fac62" target="_blank" rel="noopener">ChemRxiv</a>
+            </div>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub__year">2025</div>
+          <div class="pub__body">
+            <h3><a href="https://chemrxiv.org/engage/chemrxiv/article-details/68311c2fc1cb1ecda01075e9" target="_blank" rel="noopener">Accelerating free energy exploration using parallelizable Gaussian accelerated molecular dynamics (ParGaMD)</a></h3>
+            <p class="authors"><span class="me">S. Sonti</span>, A. Thyagatur, H. Y. Wan, M. Hamelynck, S.-H. Ahn</p>
+            <p class="venue"><span class="tag tag--pre">Preprint</span> ChemRxiv</p>
+            <div class="pub__links">
+              <a href="https://chemrxiv.org/engage/chemrxiv/article-details/68311c2fc1cb1ecda01075e9" target="_blank" rel="noopener">ChemRxiv</a>
+              <a href="https://www.youtube.com/watch?v=57lLCiNvTEM" target="_blank" rel="noopener">Tutorial video</a>
+              <a href="https://acs.digitellinc.com/p/s/bridging-timescales-in-protein-simulations-using-parallelized-gaussian-accelerated-molecular-dynamics-pargamd-618145" target="_blank" rel="noopener">ACS poster</a>
+            </div>
+          </div>
+        </li>
+        <li class="pub reveal">
+          <div class="pub__year">2024</div>
+          <div class="pub__body">
+            <h3><a href="https://pubs.acs.org/doi/full/10.1021/acs.jctc.4c00978" target="_blank" rel="noopener">Stability and Dynamics of Zeolite-Confined Gold Nanoclusters</a></h3>
+            <p class="authors"><span class="me">S. Sonti</span>, C. Sun, Z. Chen, R. M. Kowalski, J. S. Kowalski, D. Donadio, S.-H. Ahn, A. R. Kulkarni</p>
+            <p class="venue"><span class="tag tag--pub">Journal</span> <em>Journal of Chemical Theory and Computation</em></p>
+            <div class="pub__links">
+              <a href="https://pubs.acs.org/doi/full/10.1021/acs.jctc.4c00978" target="_blank" rel="noopener">DOI: 10.1021/acs.jctc.4c00978</a>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ NEWS ============ -->
+    <section class="section" id="news">
+      <div class="section__head reveal">
+        <p class="kicker">03</p>
+        <h2>News</h2>
+      </div>
+
+      <ul class="news" id="newsList">
+        <li><time>Aug 2025</time><p><span class="badge">Preprint</span> “Computer Simulations of Zeolite Formation” posted on <a href="https://chemrxiv.org/engage/chemrxiv/article-details/68b096f423be8e43d69fac62" target="_blank" rel="noopener">ChemRxiv</a>.</p></li>
+        <li><time>Jul 2025</time><p><span class="badge badge--award">Award</span> Received the 2025 Summer Graduate Student Researcher (GSR) Award from Graduate Studies, UC Davis.</p></li>
+        <li><time>May 2025</time><p><span class="badge">Preprint</span> “Accelerating free energy exploration using parallelizable Gaussian accelerated molecular dynamics (ParGaMD)” posted on <a href="https://chemrxiv.org/engage/chemrxiv/article-details/68311c2fc1cb1ecda01075e9" target="_blank" rel="noopener">ChemRxiv</a>.</p></li>
+        <li><time>Mar 2025</time><p><span class="badge badge--talk">Poster</span> Presented “<a href="https://acs.digitellinc.com/p/s/bridging-timescales-in-protein-simulations-using-parallelized-gaussian-accelerated-molecular-dynamics-pargamd-618145" target="_blank" rel="noopener">Bridging timescales in protein simulations using ParGaMD</a>” — one of 7 finalists for the NVIDIA GPU Award at ACS Spring 2025. Also presided over the “Quantum Mechanics” evening session (Mar 26).</p></li>
+        <li><time>Jan 2025</time><p><span class="badge badge--award">Award</span> Trainee Travel Award ($1,500) from the Duke Center for HIV Structural Biology to attend ACS Spring 2025; work selected as NVIDIA GPU Award finalist.</p></li>
+        <li><time>Sep 2024</time><p><span class="badge badge--pub">Paper</span> “Stability and Dynamics of Zeolite-confined Gold Nanoclusters” published in <a href="https://pubs.acs.org/doi/10.1021/acs.jctc.4c00978" target="_blank" rel="noopener"><em>J. Chem. Theory Comput.</em></a></p></li>
+        <li><time>Aug 2024</time><p><span class="badge badge--award">Award</span> UC Davis Graduate Research Award ($3,000).</p></li>
+        <li><time>Jul 2024</time><p><span class="badge badge--talk">Talk</span> Invited 10-minute talk and poster at the Computational Chemistry Gordon Research Seminar (Jul 21).</p></li>
+        <li><time>Jun 2024</time><p><span class="badge badge--talk">Poster</span> CeRCaS Spring Meeting 2024 (Jun 5).</p></li>
+        <li><time>May 2024</time><p><span class="badge badge--talk">Talk</span> 20-minute talks at the Duke Center for HIV Structural Biology Annual SAB Meeting (May 30) and the West Coast Theoretical Chemistry Meeting (May 5).</p></li>
+        <li><time>Mar 2024</time><p><span class="badge badge--mile">Milestone</span> Passed the Qualifying Examination and advanced to candidacy (Mar 18).</p></li>
+        <li><time>Feb 2024</time><p><span class="badge badge--talk">Poster</span> Two posters, including one on hydrogen carriers, at the UC Davis–Sandia Climate Security Symposium (Feb 27).</p></li>
+        <li><time>Dec 2023</time><p><span class="badge badge--mile">Mentoring</span> Mentored undergraduate Vaishnavi Kulkarni through the E-SEARCH program (Oct–Dec 2023).</p></li>
+        <li><time>Aug 2023</time><p><span class="badge badge--talk">Talk</span> 20-minute talk at ACS Fall 2023 (Aug 13). Mentored high-school student Alistair King through the Young Scholars Program (Jun–Aug 2023).</p></li>
+        <li><time>Jul 2023</time><p><span class="badge">School</span> Attended “Deep Modeling for Molecular Simulation 2023” at Princeton University (Jul 11–14).</p></li>
+        <li><time>Jun 2023</time><p><span class="badge badge--award">Award</span> 3,500 GPU hours from NSF ACCESS. Attended “Fundamentals and Applications of DFT 2023” at Boise State University (Jun 5–9).</p></li>
+        <li><time>May 2023</time><p><span class="badge badge--talk">Talk</span> Lightning talk and poster at the CeRCaS Spring Meeting (May 10); poster at the West Coast Theoretical Chemistry Meeting (May 6).</p></li>
+        <li><time>Apr 2023</time><p><span class="badge">Abstract</span> Abstract accepted for the ACS Fall 2023 Meeting.</p></li>
+        <li><time>Mar 2023</time><p><span class="badge">School</span> Attended the Enhanced Sampling Virtual School 2023 (Mar 20–24).</p></li>
+        <li><time>Jan 2023</time><p><span class="badge badge--talk">Talk</span> Talk on the Weighted Ensemble method at the Rosetta Brainstorm meeting (Jan 12).</p></li>
+        <li><time>Nov 2022</time><p><span class="badge badge--mile">Milestone</span> Appointed Graduate Student Researcher, co-advised by Prof. Surl-Hee Ahn and Prof. Ambarish Kulkarni.</p></li>
+        <li><time>Sep 2022</time><p><span class="badge badge--mile">Milestone</span> Joined UC Davis as a PhD student in Chemical Engineering.</p></li>
+      </ul>
+      <button class="btn btn--ghost news__toggle" id="newsToggle" aria-expanded="false" aria-controls="newsList">Show all news</button>
+    </section>
+
+    <!-- ============ TEACHING ============ -->
+    <section class="section" id="teaching">
+      <div class="section__head reveal">
+        <p class="kicker">04</p>
+        <h2>Teaching</h2>
+      </div>
+
+      <blockquote class="quote reveal">
+        I have always harbored a deep passion for teaching in academia — a calling profoundly inspired by my father’s unwavering dedication to education.
+      </blockquote>
+
+      <div class="teach-grid">
+        <div class="teach reveal">
+          <h3>Course Instructor</h3>
+          <ul>
+            <li><strong>ECH 252 — Statistical Thermodynamics</strong><span>Fall 2025 · co-taught with Prof. Priya Shah · <a href="https://drive.google.com/drive/folders/18Wl0bMa_ZNqz0fyXyUSQ_h6nat3Z7NmC?usp=sharing" target="_blank" rel="noopener">course materials</a></span></li>
+          </ul>
+        </div>
+        <div class="teach reveal">
+          <h3>Teaching Assistant</h3>
+          <ul>
+            <li><strong>ECH 140 — Mathematical Methods in Chemical Engineering</strong><span>Fall 2024</span></li>
+          </ul>
+        </div>
+        <div class="teach reveal">
+          <h3>Guest Lectures</h3>
+          <ul>
+            <li><strong>ECH 252 — Statistical Thermodynamics</strong><span>“Introduction to Machine-Learning Force Fields” · Fall 2023, Fall 2024</span></li>
+            <li><strong>ECH 256 — Chemical Kinetics &amp; Reaction Engineering</strong><span>“Design of Continuous Flow Reactors” · Winter 2024</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="sub reveal">Lectures &amp; tutorials</h3>
+      <div class="videos">
+        <div class="video reveal" data-yt="QrBUwCXwt8w" data-title="Introduction to Transition State Theory — A Statistical Mechanics Perspective"></div>
+        <div class="video reveal" data-yt="VeEj4hvKIDc" data-title="Diffusion Transition State Theory — Accounting for the diffusion limit leading to Kramers’ rate theory"></div>
+        <div class="video reveal" data-yt="k9ATRXm5paI" data-title="Introduction to the Weighted Ensemble Method — A deep dive into the fundamentals"></div>
+        <div class="video reveal" data-yt="UFqUJcnxXUQ" data-title="How to run Metadynamics simulations on HPC clusters — A tutorial"></div>
+        <div class="video reveal" data-yt="57lLCiNvTEM" data-title="How to run Parallelized Gaussian Accelerated MD (ParGaMD) — A tutorial"></div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+      <div class="section__head reveal">
+        <p class="kicker">05</p>
+        <h2>Education &amp; Research Experience</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="timeline__date">2022 — Present</span>
+          <h3>PhD, Chemical Engineering</h3>
+          <p class="where">University of California, Davis</p>
+          <p><strong>Graduate Student Researcher</strong> · Advisors: Prof. Surl-Hee (Shirley) Ahn &amp; Prof. Ambarish R. Kulkarni.
+            Developing computational workflows based on machine-learning potentials and enhanced sampling methods to study catalyst behavior and interactions.</p>
+        </li>
+        <li class="reveal">
+          <span class="timeline__date">2018 — 2022</span>
+          <h3>Bachelor of Chemical Engineering</h3>
+          <p class="where">Institute of Chemical Technology (ICT), Mumbai</p>
+          <p><strong>Undergraduate Researcher</strong> · Mentor: Prof. Vilas G. Gaikar.
+            Studied ternary systems for the extraction of acetic acid from water using organic entrainers, and the effect of impurities
+            (e.g., formaldehyde) on extraction, using molecular dynamics (GROMACS).</p>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <p class="brand">S<span>.</span>Sonti</p>
+        <p class="muted">Department of Chemical Engineering<br>University of California, Davis</p>
+      </div>
+      <div>
+        <p class="muted">Office: 2129B Bainer Hall<br><a href="mailto:ssiddharth@ucdavis.edu">ssiddharth@ucdavis.edu</a></p>
+      </div>
+      <p class="muted small">© <span id="year">2026</span> Siddharth Sonti · <a href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
